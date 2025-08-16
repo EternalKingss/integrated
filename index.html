@@ -1,16 +1,225 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NeuroAI - Artificial Intelligence Solutions</title>
-    <meta name="description" content="Transform your business with cutting-edge AI solutions. Harness the power of machine learning to unlock unprecedented insights and automation." />
-    <script type="module" crossorigin src="./assets/index-2160ff4c.js"></script>
-    <link rel="stylesheet" href="./assets/index-a5db17dd.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JARVIS – Your Personal AI Assistant</title>
+  <link rel="icon" type="image/svg+xml" href="vite.svg" />
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- 1. Navigation Bar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="vite.svg" alt="JARVIS logo"/>
+      <span>JARVIS</span>
+    </div>
+    <nav>
+      <ul class="menu">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#demo">Demo</a></li>
+        <li><a href="#download">Download</a></li>
+        <li><a href="#docs">Documentation</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="cta-btn" href="#try-now">Try JARVIS Now</a>
+    </nav>
+  </header>
+
+  <!-- 2. Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Meet JARVIS – Your Personal AI Assistant Powered by Advanced Voice Recognition</h1>
+      <p class="subheading">
+        A sophisticated, Iron Man–inspired AI assistant combining OpenAI’s GPT with voice control, system automation, and intelligent task management.
+      </p>
+      <div class="cta-buttons">
+        <a class="primary-cta" href="#download">Download JARVIS</a>
+        <a class="secondary-cta" href="#demo">Watch Demo</a>
+      </div>
+      <div class="status-indicator">
+        <span class="status-dot"></span> Live System Status
+      </div>
+    </div>
+    <div class="hero-visual">
+      <!-- Animated waveform or voice visualization goes here -->
+    </div>
+  </section>
+
+  <!-- 3. Features Grid -->
+  <section id="features" class="features-grid">
+    <h2>Features</h2>
+    <div class="grid">
+      <div class="feature-card">
+        <span class="icon">🎤</span>
+        <h3>Voice Recognition</h3>
+        <p>Wake word activation and noise filtering for seamless interaction.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">🧠</span>
+        <h3>AI Intelligence</h3>
+        <p>GPT-powered natural conversations that feel intuitive and human-like.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">💻</span>
+        <h3>System Control</h3>
+        <p>Launch apps, manage files, and control your system using your voice.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">🌐</span>
+        <h3>Web Integration</h3>
+        <p>Search the web, navigate pages, and summarize content in seconds.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">📁</span>
+        <h3>File Management</h3>
+        <p>OCR, document processing, and smart organization for all your files.</p>
+      </div>
+      <div class="feature-card">
+        <span class="icon">🔒</span>
+        <h3>Security</h3>
+        <p>Encrypted storage and authentication safeguard your data.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. How It Works -->
+  <section class="how-it-works">
+    <h2>How It Works</h2>
+    <div class="steps">
+      <div class="step">
+        <h3>1. “Hey Jarvis”</h3>
+        <p>Wake word activation begins the conversation.</p>
+      </div>
+      <div class="step">
+        <h3>2. Speak Command</h3>
+        <p>Use natural language to request actions or information.</p>
+      </div>
+      <div class="step">
+        <h3>3. AI Processing</h3>
+        <p>GPT analyzes and interprets your request intelligently.</p>
+      </div>
+      <div class="step">
+        <h3>4. Execute & Respond</h3>
+        <p>JARVIS performs the task and gives voice feedback instantly.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. Live Demo -->
+  <section id="demo" class="live-demo">
+    <h2>Live Demo</h2>
+    <div class="demo-content">
+      <div class="chat-interface">
+        <!-- Interactive chat UI and sample conversations -->
+      </div>
+      <div class="voice-visualization">
+        <!-- Audio visualization component -->
+      </div>
+      <div class="demo-status">
+        <span class="status-dot"></span> JARVIS is <strong>running</strong>
+      </div>
+      <a class="try-yourself" href="#try-now">Try it yourself</a>
+    </div>
+  </section>
+
+  <!-- 6. Use Cases -->
+  <section class="use-cases">
+    <h2>Use Cases</h2>
+    <div class="use-cases-tabs">
+      <button class="tab active" data-target="productivity">Productivity</button>
+      <button class="tab" data-target="system-control">System Control</button>
+      <button class="tab" data-target="personal-assistant">Personal Assistant</button>
+      <button class="tab" data-target="automation">Automation</button>
+    </div>
+    <div class="tab-content">
+      <div id="productivity" class="tab-panel active">
+        <p>Meeting assistance, email management, note-taking, and more.</p>
+      </div>
+      <div id="system-control" class="tab-panel">
+        <p>File organization, app management, and hands-free navigation.</p>
+      </div>
+      <div id="personal-assistant" class="tab-panel">
+        <p>Weather, news, reminders, and daily summaries at your command.</p>
+      </div>
+      <div id="automation" class="tab-panel">
+        <p>Workflow integrations, smart responses, and task automation.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. Technical Specifications -->
+  <section class="technical-specs">
+    <h2>Technical Specifications</h2>
+    <div class="specs-container">
+      <div class="spec-column">
+        <h3>System Requirements</h3>
+        <ul>
+          <li>Operating System: Windows 10/11</li>
+          <li>RAM: 8 GB (16 GB recommended)</li>
+          <li>Storage: 1 GB available space</li>
+        </ul>
+      </div>
+      <div class="spec-column">
+        <h3>Key Capabilities</h3>
+        <ul>
+          <li>OpenAI GPT integration</li>
+          <li>RESTful API support</li>
+          <li>Local & cloud hybrid processing</li>
+          <li>Encrypted authentication</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. Unique Selling Points -->
+  <section class="usp">
+    <h2>What Makes JARVIS Unique</h2>
+    <div class="usp-grid">
+      <div class="usp-item">Inspired by Iron Man’s iconic assistant</div>
+      <div class="usp-item">Hybrid local + cloud architecture</div>
+      <div class="usp-item">Voice-first design philosophy</div>
+      <div class="usp-item">Developer-friendly architecture</div>
+      <div class="usp-item">Privacy-conscious implementations</div>
+      <div class="usp-item">Integration-ready out of the box</div>
+    </div>
+  </section>
+
+  <!-- 9. Download Section -->
+  <section id="download" class="download-section">
+    <h2>Download JARVIS</h2>
+    <div class="compatibility-check">
+      <!-- Optional system check script -->
+    </div>
+    <div class="download-buttons">
+      <a class="download-btn" href="downloads/jarvis-windows.exe">Download for Windows</a>
+      <!-- Additional OS buttons if available -->
+    </div>
+    <div class="download-links">
+      <a href="#installation-guide">Installation Guide</a>
+      <a href="https://github.com/your-repo">GitHub Repository</a>
+      <a id="docs" href="documentation.html">Documentation</a>
+    </div>
+  </section>
+
+  <!-- 10. Footer -->
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="documentation.html">Documentation</a>
+      <a href="https://github.com/your-repo">GitHub</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </div>
+    <div class="social-media">
+      <!-- Optional social icons -->
+    </div>
+    <div class="contact-info">
+      <p>Contact: support@jarvis.ai</p>
+    </div>
+  </footer>
+
+  <!-- Scripts: voice simulator, status indicator, interactivity, etc. -->
+  <script src="main.js"></script>
+</body>
 </html>
